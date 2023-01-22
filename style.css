@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    text-decoration: none;
+    text-align: end;
+    overflow: auto;
+    padding-top: 30px;
+    
+
+
+
+}
+.nav-list{
+    width: 50%;
+    display:flex;
+    align-items: centre;
+    text-decoration: none;
+    padding-left: 600px;
+    text-decoration: none;
+    
+}
+.nav-list li{
+    list-style: none;
+    padding: 26px 30px;
+    text-decoration: none;
+   
+   
+    
+
+
+}
+.nav-list :hover{
+    opacity: 0.7;
+    text-decoration:dashed;
+
+
+}
+.abc{
+    display: inline-block;
+}
+.nav-list li.a{
+    text-decoration: none;
+    position: absolute;
+    width: 50px;
+height: 25px;
+left: 735px;
+top: 52px;
+
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-style:italic;
+font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+/* identical to box height */
+
+
+color: #000000;
+
+
+}
+.logo{
+    position: absolute;
+width: 100px;
+height: 50px;
+left: 117px;
+top: 40px;
+
+font-family: 'Lexend';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 50px;
+/* identical to box height */
+
+
+color: #000000;
+}
+img{
+    position: absolute;
+width: 750px;
+height: 737px;
+left: 903px;
+top: 80px;
+
+}
+
+
+
+
+.content{
+    position: absolute;
+width: 1533px;
+height: 737px;
+left: 120px;
+top: 80px;
+}
+
+.inner-content{
+    position: absolute;
+    width: 283px;
+    height: 46px;
+    left: 123px;
+    top: 485px;
+    
+    font-family: 'Hannari';
+    font-style: normal;
+    font-weight:lighter;
+    font-size: 10px;
+    line-height: 36px;
+    
+    color: #000000;
+
+}
+
+
+.inner2-content{
+    position: absolute;
+    width: 584px;
+    height: 152px;
+    left: 120px;
+    top: 519px;
+    
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    
+    color: #000000;
+    
+    
+
+}
+.inner3-content{
+    position: absolute;
+width: 278px;
+height: 76px;
+left: 218px;
+top: 708px;
+text-align: center;
+
+
+border-radius: 19px;
+}
+.inner3-content button{
+    padding-top: 50px;
+}
+.cn a{
+    text-decoration: none;
+}
+.cn a:hover{
+    text-decoration: underline;
+}
+.cn{
+    
+
+    border-radius: 20px;
+    border-color: aliceblue;
+    display: inline-block;
+    font-size: 16px;
+    padding: 15px 32px;
+
+}
+.logoofsocialmedia{
+    display:contents;
+    position:absolute;
+    align-items: flex-end;
+
+width: 58px;
+height: 25px;
+left: 555px;
+top: 52px;
+
+font-family: 'Lexend';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+
+/* identical to box height */
+
+
+color: #000000;
+}
+  .fa:hover{ 
+    opacity: 0.7;
+  }
+  .conn{
+    border: none;
+  color: white;
+ /* padding: 16px 32px;*/
+  text-align:center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 5px;
+  
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 20px;
+   /* position: absolute; */ 
+
+/* identical to box height */
+
+
+color: #000000;
+  }
+.fa-twitter{
+
+    
+left: 3.41%;
+right: 37.26%;
+top: 0.77%;
+bottom: 98.76%;
+padding-left: 20px;
+padding-top: 26px;
+margin: 4px 5px;
+border: 1.68391px solid #5EA7FF;
+border-radius:60%;
+width: 35px;
+text-align: center;
+
+
+
+}
+.fa-skype{
+    
+left: 65.56%;
+right: 32.34%;
+top: 0.67%;
+bottom: 98.78%;
+padding-left: 20px;
+padding-top: 26px;
+margin: 4px 5px;
+border: 1.68391px solid #5EA7FF;
+border-radius:60%;
+width: 35px;
+text-align: center;
+
+
+
+}
+.fa-instagram{
+    
+left: 71.31%;
+right: 27.74%;
+top: 0.88%;
+bottom: 98.87%;
+padding-left: 20px;
+padding-top: 26px;
+margin: 4px 5px;
+border: 1.68391px solid #FF78C7;
+border-radius:60%;
+width: 35px;
+text-align: center;
+
+
+
+}
+.fa-linkedin{
+    
+left: 75.99%;
+right: 22.25%;
+top: 0.72%;
+bottom: 98.85%;
+padding-left: 20px;
+padding-top: 26px;
+margin: 4px 5px;
+border: 1.68391px solid #0A3586;
+border-radius:100%;
+width: 35px;
+text-align: center;
+
+
+
+}
